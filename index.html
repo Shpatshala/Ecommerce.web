@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website - Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+        <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        <!-- cert -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <!-- Content -->
+            <div class="cart-content">
+
+                <div class="cart-box">
+                    <img src="img/product2.jpg" alt="" class="cart-img">
+                    <div class="details-box">
+                        <div class="cart-product-title">Earbuds</div>
+                        <div class="cart-price">$25</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <!-- Remove Cart -->
+                    <i class='bx bxs-trash-alt cart-remove' ></i>
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <!-- Buy button -->
+            <button type="button" class="btn-buy">Buy Now</button>
+            <!-- Cart Close -->
+            <i class='bx bx-x' id="close-cart"></i>
+
+        </div>
+        </div>
+    </header>
+
+    <!-- shop -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2> 
+
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product2.jpg" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product3.jpg" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">STRAW METAL BOTTLE</h2>
+                <span class="price">$24.04</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product5.jpg" alt="" class="product-img">
+                <h2 class="product-title">SILVER GLASSES</h2>
+                <span class="price">$70.99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product6.jpg" alt="" class="product-img">
+                <h2 class="product-title">BACK HAT</h2>
+                <span class="price">$37</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product7.jpg" alt="" class="product-img">
+                <h2 class="product-title">BACKPACK</h2>
+                <span class="price">$42.49</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/product8.jpg" alt="" class="product-img">
+                <h2 class="product-title">ULTRABOOST 22</h2>
+                <span class="price">$33.99</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        <div class="about ">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing <br> Laudantium soluta qui, illum </p>
+            <div class="icons">
+                <i class="fa fa-paypal"></i>
+                <i class="fa fa-cc-amex"></i>
+                <i class="fa fa-cc-discover"></i>
+                <i class="fa fa-cc-visa"></i>
+            </div>
+            <div class="lock">
+                <i class="bi bi-lock"></i>
+                <p>Secure Online Payments</p>
+            </div>
+        </div>
+
+        <div class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>Clothing</li>
+                <li>Lingerie</li>
+                <li>Footwear</li>
+                <li>Hand Bag</li>
+                <li>Jwellery</li>
+                <li>Belt</li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <h2>Information</h2>
+            <ul>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Terms & Condition</li>
+                <li>Return & Exchange</li>
+                <li>Shipping & Delivery</li>
+                <li>Private Policy</li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>Address : XYZ, New Dehli,<br>
+                America Pin-Code : 110005</p>
+            </div>
+            <div class="phone">
+                <i class="bi bi-phone"></i>
+                <p>Phone : +91 1223564879</p>
+            </div>
+            <div class="email">
+                <i class="bi bi-envelope"></i>
+                <p>Email : contact@gmail.com</p>
+            </div>
+        </div>
+
+    </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
